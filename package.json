@@ -1,0 +1,13 @@
+{
+  "name": "kitvi-theme-midnight-grid",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Midnight Grid declarative theme plugin for Kitvi 0.7.0+",
+  "license": "MIT",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "assets": "node scripts/generate-assets.mjs"
+  }
+}
